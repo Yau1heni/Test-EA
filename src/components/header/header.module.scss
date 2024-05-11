@@ -1,0 +1,18 @@
+.header {
+  padding: 60px 0;
+  margin: 0 auto;
+  @media screen and (max-width: 480px) {
+    padding-top: 80px;
+  }
+
+  .headerIcon {
+    width: 190px;
+    height: 60px;
+
+    @media screen and (max-width: 480px) {
+      width: 128px;
+      height: 40px;
+    }
+  }
+}
+

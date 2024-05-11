@@ -1,0 +1,10 @@
+@import '@/styles/variables.scss';
+
+.App {
+  background-color: $bgPrimary;
+  color: $textColorDark;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

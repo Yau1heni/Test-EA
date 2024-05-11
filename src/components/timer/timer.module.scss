@@ -1,0 +1,32 @@
+@import '@/styles/variables.scss';
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 72px;
+  padding: 0 10px;
+  @media screen and (max-width: 480px) {
+    gap: 8px;
+  }
+
+  .timerItemContainer {
+    display: flex;
+    gap: 6px;
+    @media screen and (max-width: 480px) {
+      gap: 4px;
+    }
+
+    .value {
+      color: $primaryColor;
+      font-family: Poppins, sans-serif;
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 100%;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 36px;
+      }
+    }
+  }
+}

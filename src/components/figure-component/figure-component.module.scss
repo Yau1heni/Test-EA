@@ -1,0 +1,35 @@
+.figureLeft {
+  width: 332px;
+  height: 310px;
+  position: absolute;
+  left: -5px;
+  top: 0;
+}
+
+.figureRight {
+  width: 230px;
+  height: 288px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 1024px) {
+  .figureLeft {
+    width: 245px;
+    height: 205px;
+  }
+}
+
+@media (max-width: 768px) {
+  .figureLeft {
+    width: 165px;
+    height: 152px;
+    top: -10px;
+  }
+
+  .figureRight {
+    width: 148px;
+    height: 142px;
+  }
+}

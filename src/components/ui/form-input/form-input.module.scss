@@ -1,0 +1,40 @@
+@import '@/styles/variables.scss';
+
+.inputText {
+  position: relative;
+
+  .input {
+    width: 440px;
+    height: 59px;
+    box-sizing: border-box;
+    border: 1px solid $textColorDark;
+    border-radius: 40px;
+    box-shadow: 0 0 50px 0 $shadowColor;
+    color: $textColorDark;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 16px 27px;
+
+    @media screen and (max-width: 1024px) {
+      width: 360px;
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 280px;
+    }
+  }
+
+  .button {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 43px;
+    height: 43px;
+    background: $secondaryColor;
+    border-radius: 50%;
+  }
+}
